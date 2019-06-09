@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import bookAppoint from './bookAppoint';
+import btcData from './btcData';
 
 const rootReducer = combineReducers({
-	bookAppoint,
+	btcData,
 });
 
 export default rootReducer;

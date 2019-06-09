@@ -1,18 +1,8 @@
 import Constants from '../constants';
 
-export const addAppointment = (
-	firstName,
-	lastName,
-	city,
-	dateOfAppointment,
-	timeOfAppoinment
-) => ({
-	type: Constants.ADD_APPOINTMENT,
+export const addBTCGraphData = btcChartData => ({
+	type: Constants.ADD_CHART_DATA,
 	payload: {
-		firstName,
-		lastName,
-		city,
-		dateOfAppointment,
-		timeOfAppoinment,
+		btcChartData,
 	},
 });
